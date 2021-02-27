@@ -7,7 +7,7 @@ package edu.njit.rwc.topic_04_interfaces;
  * Also, interfaces do not have any member variables, only methods. All of an interface's methods are public.
  */
 public interface Pet {
-
+    
     void pet(); // This function must be implemented by an implementing class
 
     /*

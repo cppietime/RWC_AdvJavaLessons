@@ -97,9 +97,18 @@ public class Main {
      */
     static void evenOrOdd(int i, double even, double odd){
         /*
+        i = iVal = 5
+        even = fVal = .25f
+        odd = dVal = .75
+         */
+        /*
         We use an if statement to run code only when a condition is met.
         The % symbol means modulus. It is the result of performing division then taking the remainder.
         If an integer is even, its modulus 2 will be equal to zero.
+         */
+        /*
+        i % 2
+        Divide i by 2, and take the remainder
          */
         if(i % 2 == 0){
             System.out.println(even);

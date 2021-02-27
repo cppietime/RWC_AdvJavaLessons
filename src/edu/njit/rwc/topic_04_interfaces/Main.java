@@ -9,6 +9,8 @@ public class Main {
         dog.pet();
         ((Dog)dog).bark(); // Because this value is a subclass of Dog, we can cast it to Dog to access Dog's methods
 
+        ((Dog)dog).bark();
+
         Pet rock = new RockPet();
         rock.pet(); // We would not be able to cast this to Dog
     }

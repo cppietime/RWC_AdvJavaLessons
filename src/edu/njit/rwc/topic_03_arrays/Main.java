@@ -54,7 +54,9 @@ public class Main {
         }
          */
         for(int num : nums){
+            System.out.println("Adding " + num + " to " + sum);
             sum += num; // This is a compound assignment, the same as sum = sum + num.
+            System.out.println("Now sum is " + sum);
         }
         return sum;
     }

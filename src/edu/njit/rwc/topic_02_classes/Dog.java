@@ -32,6 +32,11 @@ public class Dog {
     public void bark(){
         System.out.println("Bark number " + timesBarked + "!");
         timesBarked ++; // ++ increments the value, meaning it increases it by 1.
+        /*
+        X++
+        is equivalent to
+        X = X + 1
+         */
     }
 
 }
